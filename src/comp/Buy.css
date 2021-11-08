@@ -1,0 +1,34 @@
+#bcc{
+    display: flex;
+    justify-content: center !important;
+    justify-content: space-around !important;
+    align-content: space-around !important;
+   
+    background-color: black !important;
+    text-align: center;
+    color: blanchedalmond;
+}
+#bc{
+display: flex;
+    width: max-content !important;
+    align-content: space-around;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+     
+}
+#imi{
+    max-width: 90%;
+    height: 90%;
+    border: 100px black !important;
+flex-basis: 20%;
+} 
+#bccc{
+    background-color: black !important;
+}
+#hy{
+    font-family:Merriweather Sans ;
+}
+#hy1{
+    font-family:  Spartan;
+}

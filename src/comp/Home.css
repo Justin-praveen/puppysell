@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Noto+Serif:wght@700&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Henny+Penny&family=Merriweather+Sans:ital,wght@0,600;1,400&family=Noto+Serif:wght@700&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Merriweather+Sans:ital,wght@0,600;1,400&family=Noto+Serif:wght@700&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Merriweather+Sans:ital@1&family=Noto+Serif:wght@700&family=Oswald:wght@300&display=swap');
+.b1{
+   font-family:Merriweather Sans ;
+    border: none !important;
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.jo{
+    color:white !important;  
+}
+
+#wj{
+    color: white !important;
+    font-family:Henny Penny ;
+
+}
+#n{
+   
+    background-color: rgb(59, 59, 59) !important;
+    box-shadow:inset rgb(90, 90, 90) 10px,10px,10px,10px !important;
+}
+#im{
+    background-color: rgba(22, 22, 22, 0.137) !important;
+}
+
+
+
+#july{
+    background-image: url("https://youtu.be/0bZbUrv1UK4");
+    background-position: top right;
+    background-attachment :scroll;
+    background-size :cover;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+#jiy{
+    height: 100vh;
+    
+}
+#ol{
+    height: 100vh;display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#vid{
+    
+
+
+}
+video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+    overflow: hidden;
+    transform: "translate(-50%,-50%)";
+    z-index: -1;
+}
+#lp{
+    justify-content: space-evenly !important;
+}
+#lo{
+    left: 20px !important;
+    background-color: green !important;
+}
+#pl{
+
+}
+#f{
+    font-size: 60px;
+    font-family: Merriweather Sans;
+}
+
+#f4{
+    font-family: Spartan;
+}

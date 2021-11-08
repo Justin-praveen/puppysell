@@ -7,7 +7,7 @@ import Register from './comp/Register';
 import Home from './comp/Home';
 import Buy from './comp/Buy';
 import Sell from './comp/Sell';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   let hug = true;
@@ -20,7 +20,8 @@ function App() {
 
   return (
     <>
-    {
+    <div id="App">
+       {
       hug ? (<BrowserRouter>
     <Switch>
       <Route exact path="/">
@@ -53,6 +54,8 @@ function App() {
     </Switch>
     </BrowserRouter>)
     }
+    </div>
+   
     </>
   );
 }

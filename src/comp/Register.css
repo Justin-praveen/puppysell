@@ -1,0 +1,37 @@
+
+
+
+#f1{
+    border: 0px solid black !important;
+    color: red !important;
+    padding :20px;
+    opacity: 1;
+    margin: 20px;
+    width: max-content;
+    height: 100% !important;
+    border-radius: 20px;
+    box-shadow:black 10px 10px 200px 40px;
+    backface-visibility: hidden;
+    
+
+    
+    
+  
+}
+#june{
+    
+    height: 100vh !important;
+    width: 100% !important;
+    background-image: url("D:\clone projects\tu1\praveen\recalls\src\pic\wallpaperflare.com_wallpaper.jpg");
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    opacity: 1;
+    background-position: center;
+    background-size: cover !important;
+    overflow: hidden;
+    background-attachment: fixed;
+
+   
+    
+}

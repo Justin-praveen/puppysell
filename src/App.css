@@ -1,4 +1,10 @@
 body{
   margin :0;
+  background-color: gray !important;
   padding : 0;
+  cursor: url("D:\clone projects\tu1\praveen\recalls\src\pic\pngegg(10).png"),auto !important;
 }
+#App{
+  cursor: url("D:\clone projects\tu1\praveen\recalls\src\pic\pngegg(10).png"),auto !important;
+}
+

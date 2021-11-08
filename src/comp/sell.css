@@ -1,0 +1,25 @@
+#mono{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    backface-visibility:hidden;
+    height: 100vh;
+    transform: "translate(-50%,-50%)" !important;
+}
+
+#fs{
+    background-image: url("D:\clone projects\tu1\praveen\recalls\src\pic\902853.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: inset black 10px 10px 700px 50px ; 
+
+}
+#wh{
+    color: blanchedalmond;
+}
+#forms{
+    color: blanchedalmond;
+}
+

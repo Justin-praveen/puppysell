@@ -1,3 +1,30 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+
+import {useState} from 'react';
+import {dbs} from "../Firebase";
+
+
+
+const Buy = () => {
+
+    const [datas,setdatas] = useState(null);
+
+    if(datas!==null){
+        console.log("not yet")
+    }else{
+        dbs.collection("puppy3").onSnapshot((snap)=>setdatas(snap.docs.map((dd)=>({na:dd.data()}))))
+    }
+
+   
+    return (
+        <div>
+     {datas!==null && datas.map((du,ind)=> {
+         return(
+           
+         )
+     })}
+
+        </div>
+    )
+}
+
+export default Buy
